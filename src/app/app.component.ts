@@ -32,6 +32,16 @@ export class AppComponent implements OnInit {
     console.log(this.signUpForm)
 
   }
+
+  trackByGender(index: number, gender: string): string {
+  return gender; 
+  }
+
+  trackBySkill(index: number): number {
+  return index;
+  }
+
+
    
   onSignUp(){
     console.log(this.signUpForm)
